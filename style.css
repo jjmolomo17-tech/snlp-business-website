@@ -42,7 +42,8 @@ body {
 
 /* Hero section with background image */
 .hero {
-  background: url('images/giftbag.jpg') center/cover no-repeat;
+  /* Use one of your uploaded images as background */
+  background: url('image1.jpeg') center/cover no-repeat;
   height: 60vh; /* 60% of viewport height */
   display: flex;
   align-items: center;
