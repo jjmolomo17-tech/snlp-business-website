@@ -19,6 +19,10 @@ html{
     overflow-x: hidden;
 }
 
+section{
+    padding: 2rem;;
+}
+
 header{
     position: fixed;
     top:0; left:0; right:0;
@@ -73,6 +77,15 @@ header .fa-bars{
     cursor: pointer;
     border:.1rem solid rgba(0,0,0,.3);
     display: none;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../images/home-bg.jph) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
