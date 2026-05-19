@@ -98,7 +98,7 @@ header .fa-bars{
 
 
 /* media queries */ 
-@media (max-width:991px) {
+@media (max-width:991px){
 
     html{
     font-size: 55%;
@@ -108,7 +108,7 @@ header{
     padding:2rem;
 }
 
-
+}
 
 @media (max-width:768px){
 
@@ -121,6 +121,11 @@ header{
         top:100%; left:0; right:0;
         background: #eee;
         border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+         clip-path:polygon(0 0, 100% 100%, 0% 100%);
     }
 
     header .navbar a{
@@ -130,5 +135,13 @@ header{
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
     }
+
+}
+
+@media (max-width:450px){
+
+    html{
+    font-size: 50%;
+}
 
 }
