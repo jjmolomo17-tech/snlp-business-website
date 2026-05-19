@@ -149,6 +149,8 @@ header .fa-bars{
 
 
 
+
+
 /* media queries */ 
 @media (max-width:991px){
 
@@ -158,6 +160,14 @@ header .fa-bars{
 
 header{
     padding:2rem;
+}
+
+section{
+    padding:2rem;
+}
+
+.home{
+    background-position: left;
 }
 
 }
@@ -186,6 +196,14 @@ header{
         background: #fff;
         border:.1rem solid rgba(0,0,0,.1);
         display: block;
+    }
+
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 2.5rem;
     }
 
 }
