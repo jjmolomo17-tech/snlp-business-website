@@ -89,6 +89,13 @@ header .icons a{
     margin-left: 1.5rem;
 }
 
+header .icons {
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px; 
+}
 header .icons a:hover{
     color: var(--pink);
 }
