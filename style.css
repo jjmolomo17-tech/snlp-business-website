@@ -79,6 +79,13 @@ header .navbar a{
     color: #666;
 }
 
+header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
 header .navbar a:hover{
     color:var(--pink);
 }
